@@ -1,0 +1,240 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-neutral-50 group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#ededed] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#141414]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em]">RecruitPro</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Dashboard</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Jobs</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Candidates</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Reports</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Settings</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                <div
+                  class="text-neutral-500 flex border-none bg-[#ededed] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#141414] focus:outline-0 focus:ring-0 border-none bg-[#ededed] focus:border-none h-full placeholder:text-neutral-500 px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYF6HAcxjwq29VTH8_j3ux6SA16lTpC8HMn6xkgDDWkgn0tPBmkJcI--fo8n8hsN8UnU-k4mDMusbJO1HB_9PxO0h0JBBZlK89APrHkEt3UDY7XyRA69FMAAFgq0piwqPml13Diz3tJDsae7-EdMC_ADdL0V3-erB4hsK1w2r2E9rZ7SurSp7VxIuasAEwlGvsKf5eA_Kq5VgKOMapg8aztSLqMVV427RPhryq1GkWDyPj7FgNo16LKZqC98EuFsF-mWf_TJWLcGQ");'
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#141414] tracking-light text-[32px] font-bold leading-tight min-w-72">Job Listings</p></div>
+            <div class="px-4 py-3">
+              <label class="flex flex-col min-w-40 h-12 w-full">
+                <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                  <div
+                    class="text-neutral-500 flex border-none bg-[#ededed] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Search job titles"
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#141414] focus:outline-0 focus:ring-0 border-none bg-[#ededed] focus:border-none h-full placeholder:text-neutral-500 px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
+            </div>
+            <div class="flex items-center gap-4 bg-neutral-50 px-4 min-h-[72px] py-2">
+              <div class="text-[#141414] flex items-center justify-center rounded-lg bg-[#ededed] shrink-0 size-12" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#141414] text-base font-medium leading-normal line-clamp-1">Senior Software Engineer</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal line-clamp-2">Posted 2 days ago</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-neutral-50 px-4 min-h-[72px] py-2">
+              <div class="text-[#141414] flex items-center justify-center rounded-lg bg-[#ededed] shrink-0 size-12" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#141414] text-base font-medium leading-normal line-clamp-1">Product Manager</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal line-clamp-2">Posted 5 days ago</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-neutral-50 px-4 min-h-[72px] py-2">
+              <div class="text-[#141414] flex items-center justify-center rounded-lg bg-[#ededed] shrink-0 size-12" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#141414] text-base font-medium leading-normal line-clamp-1">UX Designer</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal line-clamp-2">Posted 1 week ago</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-neutral-50 px-4 min-h-[72px] py-2">
+              <div class="text-[#141414] flex items-center justify-center rounded-lg bg-[#ededed] shrink-0 size-12" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#141414] text-base font-medium leading-normal line-clamp-1">Data Analyst</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal line-clamp-2">Posted 2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#141414] tracking-light text-[32px] font-bold leading-tight">Senior Software Engineer</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal">Posted 2 days ago</p>
+              </div>
+            </div>
+            <h2 class="text-[#141414] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Matching Candidates</h2>
+            <div class="flex gap-4 bg-neutral-50 px-4 py-3 justify-between">
+              <div class="flex items-start gap-4">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-[70px] w-fit"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLLnbJsHFqEqslzwOnHbfeoyvqLGC6sp2ks9MCEEzFVWZAl2T3IRCfIqdqg7B3FbBmGoA0ut8sONpg15wxKoBm0J_Q93JiD5QIYSiv5gExF-BbkQeXfqUVEzvzB7x3kTipiC8lpnlGhpPdK0LX_KfHB0YdlvVaVq44Z9shn9E40iYyyHxLGwIic9awTBnY57s-M9-6Qw9JaIfw-3b7bfk7tJyRBZpgJaTvEu_2n0Hh2y2V9yGMTE6Jpv1obCbXztcCS9PyDJHj2YM");'
+                ></div>
+                <div class="flex flex-1 flex-col justify-center">
+                  <p class="text-[#141414] text-base font-medium leading-normal">Emily Carter</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Skills: 100%, Experience: 90%, Education: 95%</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Match Score: 95%</p>
+                </div>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#ededed] text-[#141414] text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">View Profile</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex gap-4 bg-neutral-50 px-4 py-3 justify-between">
+              <div class="flex items-start gap-4">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-[70px] w-fit"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnnoYPUPY1HzSIbANzhMLkA3K6oHJHVQSAW1zNCrY_OdoVJDOXqXR-n1KaNtP6nHGmN6MB_1TTNmvQSrZ7SnZX7rivhaipfUKKc0KT-8hc5UpxALvRRd7Cxey2vJUFPNtXN_PIEqvH5EaLW-_BaEDixDaWPfeTxivaDPVs3NfXvfKeoBQRyKKpiTNNXoh15AfwHFg_MzyN7v_3BR7MOvHtmtJX1IYIApKmhpEv6F8MK76SsRU-WbSahlYjgrJNZzWbLIKAGS2GhX4");'
+                ></div>
+                <div class="flex flex-1 flex-col justify-center">
+                  <p class="text-[#141414] text-base font-medium leading-normal">Owen Bennett</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Skills: 90%, Experience: 95%, Education: 85%</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Match Score: 90%</p>
+                </div>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#ededed] text-[#141414] text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">View Profile</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex gap-4 bg-neutral-50 px-4 py-3 justify-between">
+              <div class="flex items-start gap-4">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-[70px] w-fit"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB0VMKC266iwXNzFlXYUOM191joLTr96uUE-r4LtTe5Bk5s1fTn511vxrH6kOoH4M0FadA4HsMZNl2WFsi6YODxR6zNruyXKXe0k3npgwPyoxIyuNPso8E9pkJc8MQ0pnQGR-NfmI-5MtKOzhuKG2xyRFq2FoqsiBM9qvj3kCmIZ9iXa10uRASlZV9FRXQqu7VTDpYZYF5Vk9ziZvCPoNl24db9fd6LzqPFDZAxa0K4_yOKsn0IIgjFX-rqWVukSVX6rk6O2y0FQjE");'
+                ></div>
+                <div class="flex flex-1 flex-col justify-center">
+                  <p class="text-[#141414] text-base font-medium leading-normal">Chloe Harper</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Skills: 80%, Experience: 90%, Education: 85%</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Match Score: 85%</p>
+                </div>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#ededed] text-[#141414] text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">View Profile</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex gap-4 bg-neutral-50 px-4 py-3 justify-between">
+              <div class="flex items-start gap-4">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-[70px] w-fit"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC0XgC1nNOrG1YeLbCVxRgFwMP6p09VwzlhC6wv8IJdTnkUMBVFyQgfQba75UG_WQ4c2ullGiAi09bWbEbgdvTO0bvw0HCqceABEKMS18cXxGuHnjjb6u1nudCfRo-0Sgr48Qw-mibY2ltQTvXn7Obn5HSwLEnm_ArXkQKTAntDz5ecSjH-CcuvqZeMql4IpOdtKsF-7UaKEqonSK2RyeWloQ3OYGtBbZNI9mhYe51s1FHdopJzdnk9xM_ieuDTLC1gypplBL6-O_o");'
+                ></div>
+                <div class="flex flex-1 flex-col justify-center">
+                  <p class="text-[#141414] text-base font-medium leading-normal">Noah Foster</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Skills: 75%, Experience: 85%, Education: 80%</p>
+                  <p class="text-neutral-500 text-sm font-normal leading-normal">Match Score: 80%</p>
+                </div>
+              </div>
+              <div class="shrink-0">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#ededed] text-[#141414] text-sm font-medium leading-normal w-fit"
+                >
+                  <span class="truncate">View Profile</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
