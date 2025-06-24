@@ -14,7 +14,14 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-    <div class="relative flex size-full min-h-screen flex-col bg-neutral-50 group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+    <!-- Navbar on upper left -->
+    <nav class="fixed top-0 left-0 h-full w-48 bg-white border-r border-[#ededed] shadow-sm z-50 flex flex-col pt-8">
+      <a href="#" class="text-[#141414] text-lg font-bold px-6 py-2 mb-4">Menu</a>
+      <a href="candidates.html" class="text-[#141414] text-base font-medium px-6 py-2 hover:bg-sky-100 rounded transition">Candidates</a>
+      <!-- Add more nav items here if needed -->
+    </nav>
+
+    <div class="relative flex size-full min-h-screen flex-col bg-neutral-50 group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif; margin-left: 12rem;'>
       <div class="layout-container flex h-full grow flex-col">
         <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#ededed] px-10 py-3">
           <div class="flex items-center gap-8">
@@ -288,5 +295,18 @@
         </div>
       </div>
     </div>
-  </body>
+    <!-- Create Job Button at the bottom of the page -->
+    <div class="fixed bottom-8 left-0 w-full flex justify-center pointer-events-none">
+      <a
+        href="create.html"
+        class="pointer-events-auto bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full shadow-lg text-lg transition flex items-center gap-2"
+        style="z-index: 50; text-align: center;"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+        </svg>
+        Create Job
+      </a>
+    </div>
+  </body>
 </html>
